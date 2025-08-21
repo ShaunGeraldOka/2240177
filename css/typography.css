@@ -1,0 +1,33 @@
+html {
+  font-size: 16px;
+}
+
+nav li {
+    font-size: 1.5rem;
+}
+
+.text-pic-article {
+    font-size: 2rem;
+}
+
+.movies-article {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1025px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 550px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 340px) {
+    html {
+        font-size: 7.5px;
+    }
+}
