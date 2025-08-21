@@ -69,15 +69,15 @@ article {
 }
 
 .movie-1 {
-  background-image: url("/assets/fast-poster.webp");
+  background-image: url("../assets/fast-poster.webp");
 }
 
 .movie-2 {
-    background-image: url("/assets/formula-one.jpg");
+    background-image: url("../assets/formula-one.jpg");
 }
 
 .movie-3 {
-    background-image: url("/assets/gran-turismo-picture.webp");
+    background-image: url("../assets/gran-turismo-picture.webp");
   width: 50%;
 }
 
