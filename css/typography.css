@@ -1,4 +1,5 @@
 html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16px;
 }
 
@@ -6,17 +7,23 @@ nav li {
     font-size: 1.5rem;
 }
 
-.text-pic-article {
+.text-pic-section {
     font-size: 2rem;
 }
 
-.movies-article {
+.movies-section {
     font-size: 1.5rem;
 }
 
 @media (max-width: 1025px) {
     html {
         font-size: 12px;
+    }
+}
+
+@media (max-width:769px) {
+    html {
+        font-size: 10px;
     }
 }
 

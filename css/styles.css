@@ -3,10 +3,6 @@ img {
   max-height: 500px;
 }
 
-footer {
-  min-height: 55px;
-}
-
 nav ul {
   list-style: none;
   background-color: black;
@@ -30,11 +26,11 @@ nav a:focus {
   color: white;
 }
 
-article {
+section {
   min-height: calc(100vh - 55px);
 }
 
-.article-text {
+.section-text {
   max-width: 45rem;
 }
 
@@ -69,32 +65,44 @@ article {
 }
 
 .movie-1 {
-  background-image: url("../assets/fast-poster.webp");
+  background-image: url("../assets/pictures/fast-poster.webp");
 }
 
 .movie-2 {
-    background-image: url("../assets/formula-one.jpg");
+    background-image: url("../assets/pictures/formula-one.jpg");
 }
 
 .movie-3 {
-    background-image: url("../assets/gran-turismo-picture.webp");
+    background-image: url("../assets/pictures/gran-turismo-picture.webp");
   width: 50%;
 }
 
+.download-ref {
+  background-color: darkblue;
+  color: white;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+.download-ref:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
 @media (max-width: 1025px) {
-  .article-pic {
+  .section-pic {
     max-width: 300px;
   }
 }
 
 @media (max-width: 769px) {
-  .article-pic {
-    max-width: 500px;
+  .section-pic {
+    max-width: 300px;
   }
 }
 
 @media (max-width: 550px) {
-  .article-pic {
+  .section-pic {
     max-width: 300px;
   }
 }
